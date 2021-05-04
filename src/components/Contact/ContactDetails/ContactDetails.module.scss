@@ -1,0 +1,64 @@
+@import '../../../styles/styles';
+
+.contactDetails {
+  padding: 1rem;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 1rem;
+  &:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    // margin: 0 auto;
+    margin-top: 0.25rem;
+    width: 4rem;
+    height: 0;
+    border-bottom: 1px solid $color-border;
+  }
+}
+.address1 {
+  font-weight: 100;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.address2 {
+  font-size: 0.8rem;
+  font-weight: 100;
+  margin-bottom: 0;
+}
+
+.sectionDivider {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: -1rem;
+    width: 3.5rem;
+    height: 0;
+    border-bottom: 1px solid $color-border;
+  }
+}
+
+.contactMethod {
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+
+  strong {
+    font-weight: 500;
+  }
+}

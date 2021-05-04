@@ -1,0 +1,52 @@
+.jumbotronLeadContainer {
+  height: 100%;
+}
+
+.jumbotronLead {
+  display: flex;
+  height: 100%;
+  color: white;
+}
+
+.jumbotronTitle {
+  font-weight: 100;
+  font-size: 4rem;
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.jumbotronText {
+  font-weight: 100;
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
+
+.jumbotronTextWrapper {
+  will-change: opacity;
+  animation-name: fade;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-duration: 4s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  95% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

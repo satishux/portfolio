@@ -1,0 +1,48 @@
+@import '../../../styles/styles';
+
+.contactForm {
+  padding: 1rem;
+}
+
+.formControl {
+  padding: 0;
+  background-color: transparent;
+  color: $color-contact-input;
+  font-size: 1rem;
+  font-weight: 400;
+  border: none;
+  border-bottom: 2px solid $color-border-contactInput;
+  border-radius: 0px;
+  box-shadow: none;
+  &:hover,
+  &:focus,
+  &:focus-visible {
+    background-color: transparent;
+    border-bottom-color: $color-border-contactInputFocus;
+    box-shadow: none;
+    color: $color-contact-input;
+  }
+}
+
+.actionBtnContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.actionBtn {
+  padding: 0.75rem 2rem;
+  border-radius: 1.5rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  background-color: transparent;
+
+  &:hover,
+  &:active,
+  &:focus,
+  &:focus-visible {
+    border-color: $bg-contactButton;
+    background-color: $bg-contactButton;
+  }
+}

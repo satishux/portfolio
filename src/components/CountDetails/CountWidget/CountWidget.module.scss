@@ -1,0 +1,41 @@
+@import '../../../styles/styles';
+
+.countWidget {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.countWidgetIcon {
+  background-color: $bg-countWidgetIcon;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 60px;
+  box-sizing: content-box;
+  padding: 10px;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.countNumber {
+  font-size: 2rem;
+  font-weight: 100;
+
+  h1,
+  h2.h3,
+  h4,
+  h5,
+  h6 {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+}
+
+.countCaption {
+  font-size: 1rem;
+  font-weight: 100;
+}

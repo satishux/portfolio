@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: 70px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+[data-nav='list'] {
+  display: flex;
+  flex-basis: 100%;
+  flex-grow: 1;
+}
+
+.navbar {
+  padding: 1rem;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  top: 90%;
+}
+
+.dropdown-menu {
+  background-color: #3a3a3a;
+}
+
+.dropdown-item {
+  color: white;
+  font-weight: 300;
+  font-size: 0.9rem;
+
+  &:hover,
+  &:focus {
+    background-color: #1d1d1d;
+    color: white;
+  }
+}
+
+.ReactModal__Body--open {
+  overflow: hidden;
+}
+
+.ril-inner {
+  overflow-y: scroll;
+}
+

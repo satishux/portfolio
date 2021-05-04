@@ -1,0 +1,16 @@
+@import '../../styles/styles';
+
+.countDetails {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  color: $color-countDetails;
+}
+
+.countDetailsSubtitle {
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 100;
+}

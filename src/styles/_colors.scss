@@ -1,0 +1,72 @@
+// Navbar
+$color-navbar: #2f2f2f;
+$color-headerlink: #ffffff;
+
+// Jumbotron
+$bg-gradient-particles: linear-gradient(
+  to right,
+  #1e5799 0%,
+  #2989d8 30%,
+  #207cca 63%,
+  #7db9e8 100%
+);
+
+$bg-particles: #1e5799;
+
+//Infosection
+$bg-infosection: #1d1d1d;
+$color-infosection: #ffffff;
+
+// Our Process
+$bg-ourprocess-title: #3a3a3a;
+$color-ourprocess-title: #ffffff;
+$bg-ourprocess: #1d1d1d;
+$color-ourprocess: #ffffff;
+$color-process-widget-icon: #4496db;
+
+// Testimonials
+$bg-testimonials: #212121;
+$color-testimonials: #ffffff;
+$bg-testimonials-indicator: #4496db;
+
+// Services
+$bg-services: #1d1d1d;
+$color-services: #ffffff;
+$bg-servicecard: #212121;
+$color-cardBorder: #292929;
+$color-cardBody: #ffffff;
+$color-serviceCardIcon: #4496db;
+$color-cardInfo: #ffffff;
+$color-cardInfoBorder: rgba(255, 255, 255, 0.4);
+$bg-cardInfo: #4496db;
+
+// Section Title
+$color-border: rgba(255, 255, 255, 0.15);
+
+// Count Details
+$color-countDetails: #ffffff;
+$bg-countWidgetIcon: #4496db;
+
+// ShowCase
+$bg-showCase: #212121;
+$color-showCase: #ffffff;
+$bg-filterButton: transparent;
+$color-filterButton: #ffffff;
+$color-border-filterButton: #ffffff;
+$bg-hover-filterButton: #4496db;
+$color-showCase-btn: #ffffff;
+$bg-showCase-btn: #4496db;
+$color-showCase-shadow: rgba(0, 0, 0, 0.5);
+$color-showCase-hover-shadow: #4496db;
+
+// Contact
+$bg-contact: #1d1d1d;
+$color-contact: #ffffff;
+$color-border-contactInput: #292929;
+$color-border-contactInputFocus: #3498db;
+$color-contact-input: #a1a1a1;
+$bg-contactButton: #3498db;
+
+// Footer
+$bg-footer: #212121;
+$color-footer: #ffffff;

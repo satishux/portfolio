@@ -1,0 +1,41 @@
+@import '../../../styles/styles';
+
+
+.subService {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: $bg-servicecard;
+  color: white;
+  //border-left: 2px solid #4496DB;
+  border-radius: 4px;
+
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  background-color: #4496DB;
+}
+.title {
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: inherit;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.body {
+  font-weight: 100;
+  text-align: center;
+  color: $color-cardBody;
+}

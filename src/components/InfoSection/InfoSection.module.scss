@@ -1,0 +1,23 @@
+@import '../../styles/styles';
+
+.infoSection {
+  background-color: $bg-infosection;
+  color: $color-infosection;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+
+.infoSectionHeading {
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.infoSectionSubheading {
+  font-weight: 100;
+  font-size: 1.5rem;
+
+  strong {
+    font-weight: 300;
+  }
+}

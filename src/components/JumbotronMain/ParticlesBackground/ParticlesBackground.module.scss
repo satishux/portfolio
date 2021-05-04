@@ -1,0 +1,33 @@
+@import '../../../styles/styles.scss';
+
+.particlesbg {
+  //background-color: $bg-particles;
+  // background: $bg-gradient-particles;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  // background-size: 100%;
+  background-position: left center;
+}
+
+@media (max-width: 960px) {
+  .particlesbg {
+    background-position: center center;
+  }
+}
+
+.particlesOverlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.particleContainer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  // top: 0;
+  // left: 0;
+}

@@ -1,0 +1,16 @@
+@import '../../styles/styles';
+
+.contact {
+  background-color: $bg-contact;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: $color-contact;
+}
+
+.contactSubtitle {
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 100;
+}

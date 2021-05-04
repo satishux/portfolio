@@ -1,0 +1,12 @@
+@import '../../styles/styles';
+
+.navbar {
+  background-color: $color-navbar;
+  min-height: 70px;
+}
+
+.link {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 300;
+}

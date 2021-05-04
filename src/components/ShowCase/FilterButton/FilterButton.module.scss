@@ -1,0 +1,28 @@
+@import '../../../styles/styles';
+
+.filterButtonContainer {
+  padding: 0 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filterButton {
+  border-radius: 1.5rem;
+  padding: 0.6rem 1.5rem;
+  background-color: $bg-filterButton;
+  color: $color-filterButton;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  font-weight: 300;
+  border: 2px solid $color-border-filterButton;
+  transition: 1s all;
+}
+
+.filterButton:hover,
+.filterButton:focus,
+.active {
+  background-color: $bg-hover-filterButton;
+  border-color: $bg-hover-filterButton;
+}

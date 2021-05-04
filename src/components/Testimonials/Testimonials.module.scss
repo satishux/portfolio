@@ -1,0 +1,49 @@
+@import '../../styles/styles';
+
+.testimonials {
+  background-color: $bg-testimonials;
+  color: $color-testimonials;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.testimonialsRow {
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+.testimonialsCol {
+  flex-basis: 100%;
+  flex-shrink: 0;
+  font-weight: 100;
+  font-size: 1.3rem;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.testimonialsContainer {
+  display: flex;
+  position: relative;
+  transition: 1s;
+  margin-bottom: 1rem;
+}
+.indicatorList {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.indicator {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 1rem;
+  margin-right: 10px;
+  background-color: transparent;
+  border: 1px solid $bg-testimonials-indicator;
+}

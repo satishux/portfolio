@@ -1,0 +1,19 @@
+@import '../../../styles/styles';
+
+.processWidget {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #444;
+}
+
+.processWidgetTitle {
+  font-weight: 100;
+  font-size: 2rem;
+}
+.iconContainer {
+  font-size: 4rem;
+  color: $color-process-widget-icon;
+}
